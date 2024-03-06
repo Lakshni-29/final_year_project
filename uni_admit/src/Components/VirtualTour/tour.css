@@ -1,0 +1,72 @@
+.navbarTitle {
+  color: rgb(88, 88, 88);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+
+.caption-text {
+  color: rgb(88, 88, 88);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-style: italic;
+}
+
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.custom-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Center items horizontally */
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 10px;
+  padding: 20px;
+  width: 270px;
+  /* Adjust the width as needed */
+}
+
+.custom-card img {
+
+  height: 105px;
+  /* Adjust the height as needed */
+  width: 105px;
+  /* Adjust the width as needed */
+
+}
+
+.custom-card h3 {
+  color: #333333;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.custom-card p {
+  color: #666666;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.custom-card a {
+  background: linear-gradient(90deg, #C33764 3.41%, #1D2671 90.99%);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}

@@ -111,7 +111,7 @@ const Sidebar = () => {
                  Assistance</CDBSidebarMenuItem>
               </Link>
             </NavLink>
-            <br></br><br></br><br></br><br></br>
+            <br></br>
             <NavLink activeClassName="activeClicked">
               <Link
                 to="/"

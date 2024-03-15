@@ -69,7 +69,7 @@ const Sidebar = () => {
             </NavLink>
             <NavLink activeClassName="activeClicked">
               <Link
-                to="/"
+                to="/document"
                 state={["Documents"]}
                 style={{ textDecoration: "none", color: "black" }}
               >

@@ -1,0 +1,66 @@
+.document-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+    
+  }
+  .document-box {
+    width: 30%; 
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    margin-bottom: 2px;
+    margin-right: 1%;
+  }
+  h1{
+    color: #1D2671;
+    margin: 20px;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    position: relative;
+    top: 15px;
+  }
+  .document-box h3{
+    color: #333333;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  /* Hide the default file input button */
+  input[type="file"] {
+    display: none;
+  }
+  
+  /* Style the custom button */
+  .custom-file-input {
+    background: linear-gradient(90deg, #C33764 3.41%, #1D2671 90.99%);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Optional: Style the label wrapping the custom button and file input */
+  .custom-file-label {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2%;
+    position: relative;
+    left: 50px;
+  }
+  
+  
+  
+  

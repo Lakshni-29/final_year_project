@@ -2,6 +2,7 @@ import "./App.css";
 import Home from "./Components/Home/home";
 import Assessment from "./Components/Assessment/assessment";
 import Tour from "./Components/VirtualTour/tour";
+import Document from "./Components/Document/document";
 import {ToastContainer, toast} from 'react-toastify';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import 'react-toastify/dist/ReactToastify.css';
@@ -17,6 +18,7 @@ function App() {
           <Route path="assessment" element={<Assessment/>} />
           <Route path="tour" element={<Tour/>} />
           <Route path="recommend" element={<Recommend/>} />
+          <Route path="document" element={<Document/>} />
                   
         </Routes>
       </BrowserRouter>

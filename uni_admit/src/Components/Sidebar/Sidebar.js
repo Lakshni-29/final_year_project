@@ -91,7 +91,7 @@ const Sidebar = () => {
             </NavLink>
             <NavLink activeClassName="activeClicked">
               <Link
-                to="/"
+                to="/compare"
                 state={["Comparision Tool"]}
                 style={{ textDecoration: "none", color: "black" }}
               >
@@ -102,7 +102,7 @@ const Sidebar = () => {
             </NavLink>
             <NavLink activeClassName="activeClicked">
               <Link
-                to="/"
+                to="/assist"
                 state={["Assistance"]}
                 style={{ textDecoration: "none", color: "black" }}
               >

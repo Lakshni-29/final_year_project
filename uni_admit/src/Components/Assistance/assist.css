@@ -1,0 +1,55 @@
+.essay-text {
+    color: black;
+    font-family: Inter;
+    font-size: 17px;
+}
+
+.textarea-container {
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.textarea {
+    width: 90%;
+    height: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.generate-essay {
+    margin-left:64px;
+    margin-top: -13px;
+    font-size: 16px;
+}
+
+.generate-essay span {
+    margin: 0 5px;
+}
+
+.download-button {
+    width: 210px;
+    height: 40px;
+    margin-left: 400px !important;
+    margin-top: 25px;
+    font-size: 17px;
+    background: linear-gradient(90deg, #C33764, #1D2671);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+.download-button:hover {
+    background: linear-gradient(90deg, #1D2671, #C33764);
+}
+
+.file-upload{
+    margin-left: 65px;
+    margin-top: -10px !important;
+}

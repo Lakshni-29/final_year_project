@@ -1,0 +1,160 @@
+.comparison-tool {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .search-container {
+    width: 800px;
+    height:20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .selected-universities {
+    margin-bottom: 20px;
+  }
+  
+  .selected-universities-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .selected-university {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 200px; 
+  }
+  
+  .selected-university h3 {
+    margin-top: 0;
+  }
+  
+  .selected-university p {
+    margin: 5px 0;
+  }
+
+  .comparison-criteria {
+    display: flex;
+    align-items: center;
+  }
+  
+  .comparison-criteria ul {
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+    display: flex; 
+    flex-wrap: wrap;
+    top: 7px;
+    margin-top: 19px; 
+    margin-left: 40px;
+  }
+  
+  .comparison-criteria label {
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-right: 20px; 
+  }
+  
+  .comparison-criteria h2 {
+    position: relative;
+    font-size: 19px;
+    margin-top: 16px;
+    right: -19px;
+  }
+  
+  .comparison-criteria label input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+  .comparison-criteria label input[type="checkbox"]:checked {
+    background-color: #000305; /* Change to desired color */
+  }
+
+  .selected-universities-list {
+    position: relative;
+    right: 80px;
+    display: flex;
+    flex-wrap: nowrap; /* Ensure items stay on the same line */
+  }
+  
+  .selected-university-placeholder {
+    position: relative;
+    border: 2px dashed #1D2671;
+    padding: 15px; /* Increase padding for better spacing */
+    width: 350px; /* Adjust width as needed */
+    height: 150px;
+    bottom: -40px;
+    right: -60px;
+    margin-right: 30px;
+    font-size: 16px; /* Change font size */
+    text-align: left; /* Adjust text alignment */
+  }
+  
+  
+  .selected-university-placeholder .placeholder-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  
+  .selected-university-placeholder .placeholder-content p {
+    margin: 0;
+    color: #797878;
+  }
+  
+  .selected-university-placeholder h3 {
+    margin: 0;
+    
+  }
+  
+  .selected-university-placeholder p {
+    margin: 0;
+    
+  }
+
+  .selected-university {
+    border: 1px solid #ccc;
+  padding: 15px; /* Adjust padding */
+  margin-right: 20px; /* Adjust margin */
+  margin-bottom: 20px; /* Adjust margin */
+  min-width: 300px; /* Minimum width */
+  min-height: 200px; /* Minimum height */
+  flex: 1; /* Allow flex container to grow */
+  }
+  .selected-university h3 {
+    margin-top: 0;
+    font-size: 20px; /* Adjust font size */
+    color: #333; /* Change text color */
+  }
+  
+  .selected-university p {
+    margin: 5px 0;
+    font-size: 16px; /* Adjust font size */
+  }
+
+  .compare-button {
+    width: 150px; 
+    height: 48px;
+    position: relative;
+    top: -48px; 
+    margin-left: 799px; 
+    font-size: 17px;
+    background: linear-gradient(90deg, #C33764, #1D2671);
+    color: white;
+    border: none;
+  }
+  
+  
+  

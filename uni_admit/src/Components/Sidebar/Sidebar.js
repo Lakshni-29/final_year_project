@@ -58,13 +58,13 @@ const Sidebar = () => {
             </NavLink>
             <NavLink activeClassName="activeClicked">
               <Link
-                to="/"
-                state={["Applications"]}
+                to="/admission"
+                state={["Admission Timeline"]}
                 style={{ textDecoration: "none", color: "black" }}
               >
                 <CDBSidebarMenuItem >
                   <img src={application} alt="" height={33} width={33} />
-                  Applications</CDBSidebarMenuItem>
+                  Admission Timeline</CDBSidebarMenuItem>
               </Link>
             </NavLink>
             <NavLink activeClassName="activeClicked">

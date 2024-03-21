@@ -1,0 +1,103 @@
+.navbarTitle {
+    font-size: 24px;
+  }
+  
+  .caption-text {
+    margin-bottom: 20px;
+  }
+  
+  .custom-search-container {
+    width: 900px;
+    height: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  
+  .custom-search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .custom-search-button {
+    width: 50px; 
+    height: 48px;
+    position: relative;
+    top: -48px; 
+    margin-left: 898px; 
+    font-size: 17px;
+    background: #ccc;
+    color: white;
+    border: none;
+  }
+  
+  
+  .program-boxes {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-left: 45px;
+  
+  }
+  
+  .university-container {
+    flex: 0 0 calc(33.33% - 20px);
+    /* Adjusted width to fit three boxes per row */
+    margin-right: 9px;
+    /* Adjusted margin right to control space between boxes horizontally */
+    margin-bottom: 20px;
+    /* Adjusted margin bottom to control space between rows */
+  }
+  
+  .program-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    /* Adjusted width to fit three boxes per row */
+    box-sizing: border-box;
+    /* Include padding and border in the width */
+    margin-bottom: 10px;
+    /* Reduced margin bottom to control space between rows */
+  }
+  
+  .program-box img {
+    margin-bottom: 5px;
+    margin-left: 110px;
+    width: 70px;
+    height: 70px;
+  }
+  
+  .program-box h4 {
+    color: #333333;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .program-box p {
+    color: #333333;
+    font-size: 15px;
+  
+  }
+  
+  /* button styles */
+  .view-details-button {
+    display: block;
+    width: 50%;
+    padding: 8px 16px;
+    background: linear-gradient(90deg, #C33764, #1D2671);
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 73px;
+    cursor: pointer;
+  }
+  
+  .view-details-button:hover {
+    background-color: #000305;
+  }
